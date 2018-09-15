@@ -1,0 +1,24 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "B B",
+        "B B"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ap:refined_wood_block"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ap:refined_wood_leggings",
+        "count": 1
+    }
+}

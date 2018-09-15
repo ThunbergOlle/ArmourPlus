@@ -1,0 +1,16 @@
+[
+{
+  "modid": "ap",
+  "name": "ArmourPlus",
+  "description": "Lots of better armour!",
+  "version": "1.0",
+  "mcversion": "1.12.2",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["OlleThunberg"],
+  "credits": "Made it by myself!",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

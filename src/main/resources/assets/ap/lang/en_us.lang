@@ -1,0 +1,12 @@
+item.refined_wood.name=Refined Wood
+
+
+//Blocks
+tile.refined_wood_block.name=Refined Wood Block
+
+
+//ARMOUR
+item.refined_wood_helmet.name=Refined Wood Helmet
+item.refined_wood_chestplate.name=Refined Wood Chestplate
+item.refined_wood_leggings.name=Refined Wood Leggings
+item.refined_wood_boots.name=Refined Wood Boots
