@@ -1,0 +1,24 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "ap:refined_wood"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    },
+    {
+      "item": "minecraft:iron_ingot"
+    }
+    
+    ],
+
+    "result": 
+    {
+        "item": "ap:wooden_iron",
+        "count": 1
+    }
+}

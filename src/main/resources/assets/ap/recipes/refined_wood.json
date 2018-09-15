@@ -1,0 +1,17 @@
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
+    [
+
+    {
+      "item": "ap:refined_wood_block"
+    }
+    ],
+
+    "result": 
+    {
+        "item": "ap:refined_wood",
+        "count": 9
+    }
+}

@@ -22,7 +22,7 @@ public class ModItems {
 			new int[] {1, 5, 4, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 	
 	public static final Item REFINED_WOOD = new itemBase("refined_wood");
-	
+	public static final Item WOODEN_IRON = new itemBase("wooden_iron");
 	
 	//Armour
 	public static final Item REFINED_WOOD_HELMET = new ArmorBase("refined_wood_helmet", ARMOUR_MATERIAL_REFINED_WOOD, 1, EntityEquipmentSlot.HEAD); //HELMET OBJECT
