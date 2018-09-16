@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WRW",
+        "W W",
+        "   "
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "ap:wooden_iron"
+        },
+        "R":
+        {
+            "item":"ap:refined_wood_helmet"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ap:wooden_iron_helmet",
+        "count": 1
+    }
+}
