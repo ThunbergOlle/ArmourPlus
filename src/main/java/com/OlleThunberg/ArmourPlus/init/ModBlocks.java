@@ -3,7 +3,6 @@ package com.OlleThunberg.ArmourPlus.init;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.OlleThunberg.ArmourPlus.blocks.BlockBase;
 import com.OlleThunberg.ArmourPlus.blocks.WoodBlock;
 
 import net.minecraft.block.Block;

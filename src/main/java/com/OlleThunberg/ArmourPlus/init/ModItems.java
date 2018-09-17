@@ -22,10 +22,12 @@ public class ModItems {
 			new int[] {1, 5, 4, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 	public static final ArmorMaterial ARMOUR_MATERIAL_WOODEN_IRON = EnumHelper.addArmorMaterial("armour_material_wooden_iron", Reference.MOD_ID + ":wooden_iron", 7, 
 			new int[] {2, 6, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+	public static final ArmorMaterial ARMOUR_MATERIAL_PEAST = EnumHelper.addArmorMaterial("armour_material_peast", Reference.MOD_ID + ":peast", 7, 
+			new int[] {3, 7, 6, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
 	public static final Item REFINED_WOOD = new itemBase("refined_wood");
 	public static final Item WOODEN_IRON = new itemBase("wooden_iron");
-	
+	public static final Item PEAST = new itemBase("peast");
 	//Armour
 	
 	public static final Item REFINED_WOOD_HELMET = new ArmorBase("refined_wood_helmet", ARMOUR_MATERIAL_REFINED_WOOD, 1, EntityEquipmentSlot.HEAD); //HELMET OBJECT
@@ -38,5 +40,12 @@ public class ModItems {
 	public static final Item WOODEN_IRON_CHESTPLATE = new ArmorBase("wooden_iron_chestplate", ARMOUR_MATERIAL_WOODEN_IRON,1, EntityEquipmentSlot.CHEST);
 	public static final Item WOODEN_IRON_LEGGINGS = new ArmorBase("wooden_iron_leggings", ARMOUR_MATERIAL_WOODEN_IRON,2, EntityEquipmentSlot.LEGS);
 	public static final Item WOODEN_IRON_BOOTS = new ArmorBase("wooden_iron_boots", ARMOUR_MATERIAL_WOODEN_IRON,1, EntityEquipmentSlot.FEET);
+	
+	//PEAST ARMOUR
+	public static final Item PEAST_HELMET = new ArmorBase("peast_helmet", ARMOUR_MATERIAL_PEAST,1 ,EntityEquipmentSlot.HEAD);
+	public static final Item PEAST_CHESTPLATE = new ArmorBase("peast_chestplate", ARMOUR_MATERIAL_PEAST,1 ,EntityEquipmentSlot.CHEST);
+	public static final Item PEAST_LEGGINGS = new ArmorBase("peast_leggings", ARMOUR_MATERIAL_PEAST,2 ,EntityEquipmentSlot.LEGS);
+	public static final Item PEAST_BOOTS = new ArmorBase("peast_boots", ARMOUR_MATERIAL_PEAST,1 ,EntityEquipmentSlot.FEET);
+
 
 }

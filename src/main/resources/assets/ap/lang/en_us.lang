@@ -1,6 +1,6 @@
 item.refined_wood.name=Refined Wood
 item.wooden_iron.name=Wooden Iron
-
+item.peast.name=Peast
 
 //Blocks
 tile.refined_wood_block.name=Refined Wood Block
@@ -16,3 +16,8 @@ item.wooden_iron_helmet.name=Wooden Iron Helmet
 item.wooden_iron_chestplate.name=Wooden Iron Chestplate
 item.wooden_iron_leggings.name=Wooden Iron Leggings
 item.wooden_iron_boots.name=Wooden Iron Boots
+
+item.peast_helmet.name=Peast Helmet
+item.peast_chestplate.name=Peast Chestplate
+item.peast_leggings.name=Peast Leggings
+item.peast_boots.name=Peast Boots

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "W W",
+        "WRW",
+        "WWW"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "ap:peast"
+        },
+        "R":
+        {
+            "item":"ap:wooden_iron_chestplate"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ap:peast_chestplate",
+        "count": 1
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "   ",
+        "WRW",
+        "W W"
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "ap:peast"
+        },
+        "R":
+        {
+            "item":"ap:wooden_iron_boots"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ap:peast_boots",
+        "count": 1
+    }
+}

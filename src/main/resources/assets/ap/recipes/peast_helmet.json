@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "WRW",
+        "W W",
+        "   "
+    ],
+    
+    "key":
+    {
+        "W":
+        {
+            "item": "ap:peast"
+        },
+        "R":
+        {
+            "item":"ap:wooden_iron_helmet"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ap:peast_helmet",
+        "count": 1
+    }
+}
