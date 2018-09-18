@@ -1,24 +1,27 @@
-{
-    "type": "minecraft:crafting_shaped",
-    
-    "pattern":
+{ 
+    "type": "minecraft:crafting_shapeless",
+
+    "ingredients": 
     [
-        "WWW",
-        "WWW",
-        "WWW"
-    ],
-    
-    "key":
+
     {
-        "W":
-        {
-            "item": "ap:refined_wood"
-        }
+      "item": "ap:refined_wood"
     },
+    {
+      "item": "ap:refined_wood"
+    },
+    {
+      "item": "ap:refined_wood"
+    },
+    {
+      "item": "ap:refined_wood"
+    }
     
-    "result":
+    ],
+
+    "result": 
     {
         "item": "ap:refined_wood_block",
-        "count": 1
+        "count": 4
     }
 }

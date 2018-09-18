@@ -19,17 +19,21 @@ public class ModItems {
 	public static final List<Item> ITEMS = new ArrayList<Item>();
 	
 	public static final ArmorMaterial ARMOUR_MATERIAL_REFINED_WOOD = EnumHelper.addArmorMaterial("armour_material_refined_wood", Reference.MOD_ID + ":refined_wood", 7, 
-			new int[] {1, 5, 4, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
+			new int[] {1, 3, 2, 1}, 10, SoundEvents.ITEM_ARMOR_EQUIP_CHAIN, 0.0F);
 	public static final ArmorMaterial ARMOUR_MATERIAL_WOODEN_IRON = EnumHelper.addArmorMaterial("armour_material_wooden_iron", Reference.MOD_ID + ":wooden_iron", 7, 
-			new int[] {2, 6, 5, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+			new int[] {2, 4, 3, 2}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	public static final ArmorMaterial ARMOUR_MATERIAL_PEAST = EnumHelper.addArmorMaterial("armour_material_peast", Reference.MOD_ID + ":peast", 7, 
-			new int[] {3, 7, 6, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
+			new int[] {3, 5, 5, 3}, 10, SoundEvents.ITEM_ARMOR_EQUIP_IRON, 0.0F);
 	
+	
+	//ITEMS
 	public static final Item REFINED_WOOD = new itemBase("refined_wood");
 	public static final Item WOODEN_IRON = new itemBase("wooden_iron");
+	public static final Item BURNED_IRON = new itemBase("burned_iron");
 	public static final Item PEAST = new itemBase("peast");
-	//Armour
 	
+	//Armour
+	//REFINED WOOD ARMOUR
 	public static final Item REFINED_WOOD_HELMET = new ArmorBase("refined_wood_helmet", ARMOUR_MATERIAL_REFINED_WOOD, 1, EntityEquipmentSlot.HEAD); //HELMET OBJECT
 	public static final Item REFINED_WOOD_CHESTPLATE = new ArmorBase("refined_wood_chestplate", ARMOUR_MATERIAL_REFINED_WOOD, 1, EntityEquipmentSlot.CHEST); 
 	public static final Item REFINED_WOOD_LEGGINGS = new ArmorBase("refined_wood_leggings", ARMOUR_MATERIAL_REFINED_WOOD, 2, EntityEquipmentSlot.LEGS); 

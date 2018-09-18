@@ -1,0 +1,28 @@
+{
+    "type": "minecraft:crafting_shaped",
+    
+    "pattern":
+    [
+        "BBB",
+        "GGG",
+        "BBB"
+    ],
+    
+    "key":
+    {
+        "B":
+        {
+            "item": "ap:burned_iron"
+        },
+        "G":
+        {
+            "item":"minecraft:gold_ingot"
+        }
+    },
+    
+    "result":
+    {
+        "item": "ap:peast",
+        "count": 3
+    }
+}
