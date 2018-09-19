@@ -2,6 +2,7 @@ item.refined_wood.name=Refined Wood
 item.wooden_iron.name=Wooden Iron
 item.peast.name=Peast Bar
 item.burned_iron.name=Burned Iron
+item.red_diamond.name=Red Diamond
 
 //Blocks
 tile.refined_wood_block.name=Refined Wood Block

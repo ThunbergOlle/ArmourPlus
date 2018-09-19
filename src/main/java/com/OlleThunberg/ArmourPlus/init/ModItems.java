@@ -31,7 +31,7 @@ public class ModItems {
 	public static final Item WOODEN_IRON = new itemBase("wooden_iron");
 	public static final Item BURNED_IRON = new itemBase("burned_iron");
 	public static final Item PEAST = new itemBase("peast");
-	
+	public static final Item RED_DIAMOND = new itemBase("red_diamond");
 	//Armour
 	//REFINED WOOD ARMOUR
 	public static final Item REFINED_WOOD_HELMET = new ArmorBase("refined_wood_helmet", ARMOUR_MATERIAL_REFINED_WOOD, 1, EntityEquipmentSlot.HEAD); //HELMET OBJECT
